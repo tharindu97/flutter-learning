@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "252416416211",
+    "firebase_url": "https://cloud-a45ad.firebaseio.com",
+    "project_id": "cloud-a45ad",
+    "storage_bucket": "cloud-a45ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252416416211:android:96b028f4510de672b6f726",
+        "android_client_info": {
+          "package_name": "com.example.firebase_upload_image"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252416416211-hengkkb71krqedvqdnbf15aaonpjsip2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUPEwUNCC0pUbPwQIcwxbOLJ5Xp-09h6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252416416211-hengkkb71krqedvqdnbf15aaonpjsip2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
