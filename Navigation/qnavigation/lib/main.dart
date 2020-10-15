@@ -52,7 +52,6 @@ class _HomePageState extends State<HomePage> {
           Icon(Icons.list),
           Icon(Icons.phone),
           Icon(Icons.camera),
-          Icon(Icons.add)
         ],
         animationDuration: Duration(
           milliseconds: 200
