@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
           Icon(Icons.camera),
         ],
         animationDuration: Duration(
-          milliseconds: 200
+          milliseconds: 0
         ),
         index: 2,
         animationCurve: Curves.easeInOut,

@@ -33,23 +33,38 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text('Flutter Drag'),
       ),
-      body: GestureDetector(
-        child: Stack(
-          children: [
-            Positioned(
-              top: top,
-              left: left,
-              child: Text('Tharindu Kavishna')
-            )
-          ],
+      body: Container(
+        width: double.infinity,
+        margin: EdgeInsets.all(10),
+        decoration: BoxDecoration(
+          color: Colors.pinkAccent,
+          borderRadius: BorderRadius.circular(15)
         ),
-        onVerticalDragUpdate: (DragUpdateDetails dd){
-          setState(() {
-            top = dd.localPosition.dy;
-            left = dd.localPosition.dx;
-          });
-        },
-        
+        child: GestureDetector(
+          child: Stack(
+            children: [
+              Positioned(
+                top: top,
+                left: left,
+                child: Text(
+                  'Tharindu \n Kavishna',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 45,
+                    fontWeight: FontWeight.bold
+                  ),
+                  )
+              )
+            ],
+          ),
+          onVerticalDragUpdate: (DragUpdateDetails dd){
+            setState(() {
+              top = dd.localPosition.dy;
+              left = dd.localPosition.dx;
+            });
+          },
+          
+        ),
       ),
     );
   }
